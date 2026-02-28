@@ -1,0 +1,9 @@
+node_modules
+dist
+storybook-static
+playwright-report
+test-results
+coverage
+.DS_Store
+.local-home
+playwright/.cache

@@ -1,0 +1,109 @@
+:root {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #132238;
+  background:
+    radial-gradient(circle at top right, rgba(255, 183, 77, 0.35), transparent 35%),
+    linear-gradient(135deg, #f3f7fb 0%, #dbe8f4 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.card {
+  width: min(100%, 560px);
+  padding: 32px;
+  border: 1px solid rgba(19, 34, 56, 0.12);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 24px 60px rgba(19, 34, 56, 0.12);
+}
+
+.card h1 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.1;
+}
+
+.card p {
+  margin: 0 0 16px;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+  color: #b45f06;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.button {
+  border: 0;
+  border-radius: 999px;
+  padding: 12px 18px;
+  color: #fff;
+  background: linear-gradient(135deg, #0f4c81 0%, #1a7f5a 100%);
+  cursor: pointer;
+}
+
+.button-secondary {
+  color: #132238;
+  background: linear-gradient(135deg, #d9e8f6 0%, #d7f1e4 100%);
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+}
+
+.inline-form {
+  display: grid;
+  gap: 16px;
+}
+
+.field span {
+  font-weight: 600;
+}
+
+.field input {
+  width: 100%;
+  border: 1px solid rgba(19, 34, 56, 0.18);
+  border-radius: 14px;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.92);
+  font: inherit;
+}
+
+.message {
+  margin: 16px 0;
+  font-weight: 600;
+}
