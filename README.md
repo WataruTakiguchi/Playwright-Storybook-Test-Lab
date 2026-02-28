@@ -27,9 +27,9 @@ Vite + React + TypeScript を土台に、Playwright E2E、Playwright Component T
 
 現在の管理場所:
 
-- 共通: [src/testids/common/app.ts](/Users/takiguchiwataru/dev/nextjs-playwright-storybook-lab/src/testids/common/app.ts)
-- ページ単位: [src/testids/pages/home.ts](/Users/takiguchiwataru/dev/nextjs-playwright-storybook-lab/src/testids/pages/home.ts)
-- 集約 export: [src/testids/index.ts](/Users/takiguchiwataru/dev/nextjs-playwright-storybook-lab/src/testids/index.ts)
+- 共通: [src/testids/common/app.ts](https://github.com/WataruTakiguchi/Playwright-Storybook-Test-Lab/blob/main/src/testids/common/app.ts)
+- ページ単位: [src/testids/pages/home.ts](https://github.com/WataruTakiguchi/Playwright-Storybook-Test-Lab/blob/main/src/testids/pages/home.ts)
+- 集約 export: [src/testids/index.ts](https://github.com/WataruTakiguchi/Playwright-Storybook-Test-Lab/blob/main/src/testids/index.ts)
 
 ### 追加手順
 
